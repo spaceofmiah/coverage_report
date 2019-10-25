@@ -16,7 +16,7 @@ class ErrorReportTest(TestCase):
 		Expected:
 		object_representation = humanly_readable_string
 		"""
-		errorOne = ErrorReport(
+		errorOne = ErrorReport.objects.create(
 			name="ModuleNotFound: no module named coverage_report")
 		self.assertEquals(
 			errorOne.__str__(), 
