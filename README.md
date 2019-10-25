@@ -22,13 +22,6 @@ To use this project please follow the steps below
 	**command**: pipenv install
 
 
-* make migrations and migrate db 
-
-	**migration_command**: python manage.py makemigrations
-
-	**migrate_command**: python manage.py migrate
-
-
 * run coverage test
 	
 	**command**: coverage run manage.py test
@@ -41,7 +34,7 @@ To use this project please follow the steps below
 Package    Version
 ---------- -------
 asgiref    3.2.3
-coverage   5.0a8
+coverage   5.0a7
 Django     3.0b1
 pip        19.2.3
 pytz       2019.3
